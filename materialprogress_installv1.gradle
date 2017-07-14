@@ -25,9 +25,9 @@ install {
                 }
                 developers {
                     developer {
-                        id 'superdevzhao'
-                        name 'Zhao Lin'
-                        email 'achmun0526@gmail.com'
+                        id "superdevzhao"
+                        name "Zhao Lin"
+                        email "achmun0526@gmail.com"
                     }
                 }
                 scm {
