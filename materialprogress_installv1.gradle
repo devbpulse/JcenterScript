@@ -1,6 +1,6 @@
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = com.superdevzhao                               // Maven Group ID for the artifact
+group = publishedGroupId                               // Maven Group ID for the artifact
 
 install {
     repositories.mavenInstaller {
@@ -12,28 +12,28 @@ install {
                 artifactId artifact
 
                 // Add your description here
-                name 'materialprogress'
-                description 'A material style progress wheel compatible with 2.3'
-                url 'https://github.com/superdevzhao/materialprogress'
+                name libraryName
+                description libraryDescription
+                url siteUrl
 
                 // Set your license
                 licenses {
                     license {
-                        name 'The Apache Software License, Version 2.0'
-                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                        name licenseName
+                        url licenseUrl
                     }
                 }
                 developers {
                     developer {
-                        id "superdevzhao"
-                        name "Zhao Lin"
-                        email "achmun0526@gmail.com"
+                        id developerId
+                        name developerName
+                        email developerEmail
                     }
                 }
                 scm {
-                    connection 'https://github.com/superdevzhao/materialprogress'
-                    developerConnection 'https://github.com/superdevzhao'
-                    url 'https://github.com/superdevzhao/materialprogress'
+                    connection gitUrl
+                    developerConnection gitUrl
+                    url siteUrl
 
                 }
             }
